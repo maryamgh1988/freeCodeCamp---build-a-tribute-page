@@ -1,0 +1,81 @@
+body{
+    margin:0;
+  }
+  #main{
+    width : 60%;
+    height : auto;
+    margin : 0 auto;
+    background-color : rgb(192,192,192, 0.4);
+    padding :2% 5% 50% 5%;
+    margin : 1% auto;
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+  }
+  #title{
+    font-family: 'Bilbo Swash Caps';
+    font-size: 2.5em;
+    font-weight : bold;
+    text-align : center;
+    padding : 5%;
+  }
+  #titleWrapper{
+    position :relative;
+  }
+ 
+  #line{
+    position: absolute;
+    top:50%;
+    font-size : 0;
+    text-align:center;
+    padding : 0.2%;
+    width:100%;
+    height :0.2%;
+  background: linear-gradient(90deg, rgba(1,0,10,1) 0%, rgba(113,112,118,0) 20%, rgba(255,255,255,0) 80%, rgba(148,153,153,0) 71%, rgba(1,11,13,1) 100%);
+     
+  border-radius:100%;
+  }
+  
+  
+  #content{
+    width:100%;
+    height: auto;
+    padding: 0 0 55% 0;
+  }
+  #img-div{
+    width : 45%;
+    height : auto;
+    margin : 0 2%;
+    float : left;
+  }
+  #image{
+     max-width : 100%;
+      margin : 0 auto;
+    display: block;
+  }
+  #tribute-info{
+   font-family: 'Courgette';
+    font-size: 1.1em;
+    width : 40%;
+    height : auto;
+    margin : 0 5%;
+    padding: 2% 0;
+    float : left;
+  }
+  #img-caption{
+    font-size: 0.8em;
+    text-align : center;
+  }
+  .clearBoth{
+    clear : both;
+  }
+  
+  #link{
+    text-align: center;  
+  text-decoration:none;
+  }
+  #tribute-link{ 
+  font-family: 'Bilbo Swash Caps';
+  text-decoration:none;
+  color:black;
+  font-size:2em;
+    font-weight : bold;
+  }
